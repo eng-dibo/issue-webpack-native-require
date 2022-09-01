@@ -1,0 +1,9 @@
+{
+  "name": "example",
+  "version": "0.0.0",
+  "scripts": {
+    "start": "npm run build:ssr && npm run serve:ssr",
+    "build:ssr": "ng build && ng run example:server",
+    "serve:ssr": "node dist/example/server/main.js"
+  }
+}
